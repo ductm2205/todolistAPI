@@ -15,6 +15,7 @@ class Task extends Model
         'deadline',
         'taskable_id',
         'taskable_type',
+        'isCompleted',
     ];
 
     public function taskable()
